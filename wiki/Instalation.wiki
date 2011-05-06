@@ -1,7 +1,7 @@
 #summary How to make Redmine DMSF up & running.
 #labels Featured,Phase-Deploy
 
-= Instlation =
+= Instalation =
 
 == Prerequisities ==
 
