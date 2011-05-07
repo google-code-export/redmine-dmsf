@@ -1,0 +1,9 @@
+#summary Changelogs for all releases
+#labels Featured,Phase-Support,Changelog
+
+== 0.5.1 (2011-05-07) ==
+Bugfix release
+ * Issue 12: Error when creating new revision without file upload in details
+
+== 0.5.0 (2011-05-05) ==
+Initial release from Kontron AG R&D internal development
