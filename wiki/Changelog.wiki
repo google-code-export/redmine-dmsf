@@ -1,6 +1,10 @@
 #summary Changelogs for all releases
 #labels Featured,Phase-Support,Changelog
 
+== 0.5.3 (2011-05-09) ==
+Bugfix release
+ * Issue with multi upload without limiting number of files
+
 == 0.5.2 (2011-05-09) ==
 Bugfix release
  * Issue 1: Tune optional full text search description in Readme.txt
