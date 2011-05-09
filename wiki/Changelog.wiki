@@ -1,6 +1,14 @@
 #summary Changelogs for all releases
 #labels Featured,Phase-Support,Changelog
 
+== 0.5.2 (2011-05-09) ==
+Bugfix release
+ * Issue 1: Tune optional full text search description in Readme.txt
+ * Issue 15: Error with multi upload and locked file
+ * updated Plupload to 1.4.3.2
+ * upload controls set according to settings
+ * added setting for max number of uploaded files at once
+
 == 0.5.1 (2011-05-07) ==
 Bugfix release
  * Issue 12: Error when creating new revision without file upload in details
