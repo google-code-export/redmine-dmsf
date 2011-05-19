@@ -1,6 +1,16 @@
 #summary Changelogs for all releases
 #labels Featured,Phase-Support,Changelog
 
+== 0.6.0 (2011-05-19) ==
+Full localization support, UI stabilization, Notification improvements
+ * Issue 6: Improve content of notification emails
+ * Issue 7: Include lock state info in file detail
+ * Issue 8: Allow to enter workflow in upload/commit form
+ * Issue 9: Localization
+ * Issue 16: Erroneus translation
+ * Issue 21: Prepare for Redmine 1.2.0
+ * Issue 25: Uploading files doesn't send notifications emails by default
+
 == 0.5.3 (2011-05-09) ==
 Bugfix release
  * Issue with multi upload without limiting number of files
