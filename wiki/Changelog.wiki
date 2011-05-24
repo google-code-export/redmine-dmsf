@@ -1,6 +1,20 @@
 #summary Changelogs for all releases
 #labels Featured,Phase-Support,Changelog
 
+== 0.7.0 (2011-05-24) ==
+File renaming, File/Folder moving, Further UI improvements
+ * Feature 3:	Include icons for most common file types
+ * Feature 4:	Document files renaming
+ * Defect 18:	DMSF menu is not always selected
+ * Defect 30:	File upload strange behavior for files with same filename
+ * Feature 32:	Traslation improvement
+ * Feature 34:	Improvement Idea: link to folder
+ * Feature 36:	Document/Folder move
+ * Feature 42:	Validate model structure
+ * Defect 43:	Microsoft Visio download problem.
+ * Defect 44:	Order files
+ * Defect 48:	Database Error WHen Searching With Redmine Search
+
 == 0.6.0 (2011-05-19) ==
 Full localization support, UI stabilization, Notification improvements
  * Issue 6: Improve content of notification emails
