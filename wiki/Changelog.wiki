@@ -7,6 +7,8 @@ Bugfix release
 
 == 0.7.0 (2011-05-24) ==
 File renaming, File/Folder moving, Further UI improvements
+
+*Require database update!*
  * Issue 3:	Include icons for most common file types
  * Issue 4:	Document files renaming
  * Issue 18:	DMSF menu is not always selected
