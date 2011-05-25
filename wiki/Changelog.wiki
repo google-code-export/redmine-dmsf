@@ -1,6 +1,10 @@
 #summary Changelogs for all releases
 #labels Featured,Phase-Support,Changelog
 
+== 0.7.1 (2011-05-25) ==
+Bugfix release
+ * Fixed wrong file names in Zipped content
+
 == 0.7.0 (2011-05-24) ==
 File renaming, File/Folder moving, Further UI improvements
  * Issue 3:	Include icons for most common file types
