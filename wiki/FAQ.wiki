@@ -1,0 +1,11 @@
+#summary Frequently Asked Questions
+
+== Q: Why can't I download or email multiple entries? ==
+Got error in both cases:
+{{{
+MissingSourceFile (no such file to load -- zip/zip):
+  vendor/plugins/redmine_dmsf/app/helpers/dmsf_zip.rb:19
+  ...
+}}}
+
+== A: Check you have gem rubyzip installed ==
