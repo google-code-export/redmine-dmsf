@@ -9,3 +9,10 @@ MissingSourceFile (no such file to load -- zip/zip):
 }}}
 
 == A: Check you have gem rubyzip installed ==
+As stated in instalation guide
+
+----
+
+== Q: What is proper Zip filenames encoding for Czech alphabet on MS Windows? ==
+
+== A: cp852 ==
