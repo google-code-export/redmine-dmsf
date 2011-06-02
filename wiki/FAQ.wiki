@@ -16,3 +16,10 @@ As stated in instalation guide
 == Q: What is proper Zip filenames encoding for Czech alphabet on MS Windows? ==
 
 == A: cp852 ==
+
+----
+
+== Q: What is proper Zip filenames encoding for Chinese characters? ==
+
+== A: gbk ==
+But it will vary on variant and target system
