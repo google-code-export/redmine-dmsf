@@ -3,8 +3,7 @@
 == Q: How to access file detail when got link for download? ==
 
 == A: Delete part of download link after '?' ==
-Example:
- Download: 
+Example download: 
  {{{
    http://localhost:3000/dmsf_files/10?download= 
  }}}
