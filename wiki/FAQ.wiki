@@ -1,5 +1,18 @@
 #summary Frequently Asked Questions
 
+== Q: How to access file detail when got link for download? ==
+
+== A: Delete part of download link after '?' ==
+Example:
+ Download: 
+ {{{
+   http://localhost:3000/dmsf_files/10?download= 
+ }}}
+ Detail: 
+ {{{
+   http://localhost:3000/dmsf_files/10 
+ }}}
+
 == Q: Why can't I download or email multiple entries? ==
 Got error in both cases:
 {{{
