@@ -1,6 +1,22 @@
 #summary Changelogs for all releases
 #labels Featured,Phase-Support,Changelog
 
+== 0.8.0 (2011-06-05) ==
+Big internal code rework, Many bugfixes, Further UI improvements
+
+*Require database update!*
+*Link for file download changed (wiki code unaffected)*
+
+ * Issue 23:	Move user preferences to tab in Project settings
+ * Issue 24:	Add paging to file revisions
+ * Issue 47:	Multiple Deletes
+ * Issue 49:	Validate plugin settings
+ * Issue 57:	Improve file download link structure
+ * Issue 58:	Add description to root of DMSF
+ * Issue 59:	Don't show upload controls when no rights for it
+ * Issue 65:	download via Zip with national alphabet in filename
+ * Issue 67:	Show number of files stored in each folder
+
 == 0.7.1 (2011-05-25) ==
 Bugfix release
  * Fixed wrong file names in Zipped content
