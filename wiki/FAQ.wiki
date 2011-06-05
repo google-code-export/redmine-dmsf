@@ -7,7 +7,7 @@ Example download:
  {{{
    http://localhost:3000/dmsf_files/10?download= 
  }}}
- Detail: 
+Detail: 
  {{{
    http://localhost:3000/dmsf_files/10 
  }}}
