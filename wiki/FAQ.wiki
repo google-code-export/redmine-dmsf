@@ -1,4 +1,5 @@
 #summary Frequently Asked Questions
+#labels Featured,Phase-Support
 
 == Q: How to access file detail when got link for download? ==
 
