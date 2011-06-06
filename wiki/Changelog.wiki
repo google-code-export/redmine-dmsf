@@ -8,8 +8,9 @@ Bugfix release
 == 0.8.0 (2011-06-05) ==
 Big internal code rework, Many bugfixes, Further UI improvements
 
-*Require database update!*
-*Link for file download changed (wiki code unaffected)!*
+ * *Require database update*
+ * *Link for file download changed (wiki code unaffected)*
+ * *New plugin settings*
 
  * Issue 23:	Move user preferences to tab in Project settings
  * Issue 24:	Add paging to file revisions
