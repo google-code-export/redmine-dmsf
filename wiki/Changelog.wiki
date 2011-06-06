@@ -1,6 +1,10 @@
 #summary Changelogs for all releases
 #labels Featured,Phase-Support,Changelog
 
+== 0.8.1 (2011-06-06) ==
+Bugfix release
+ * Issue 71: Undefined method count
+
 == 0.8.0 (2011-06-05) ==
 Big internal code rework, Many bugfixes, Further UI improvements
 
