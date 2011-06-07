@@ -1,6 +1,11 @@
 #summary Changelogs for all releases
 #labels Featured,Phase-Support,Changelog
 
+== 0.8.2 (2011-06-07) ==
+Bugfix release
+ * Issue 74:	dmsf_attrs[1] is equal to E''
+ * Issue 75:	Link for DMSF event in "Activity" is broken.
+
 == 0.8.1 (2011-06-06) ==
 Bugfix release
  * Issue 71: Undefined method count
