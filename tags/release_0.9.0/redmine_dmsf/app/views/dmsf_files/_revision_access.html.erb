@@ -1,0 +1,22 @@
+<p>
+	<table id="table_id" style="width: 100%" class="display access-table">
+		<thead>
+			<tr>
+				<th><%=l(:field_user)%></th>
+				<th><%=l(:heading_access_downloads_emails)%></th>
+				<th><%=l(:heading_access_first)%></th>
+				<th><%=l(:heading_access_last)%></th>
+			</tr>
+		</thead>
+		<tbody>
+<% @revision.access_grouped.each do |access| %>
+			<tr>
+				<td><%=h(User.find(access[0]))%></td>
+				<td><%=access[1]%></td>
+				<td><%=Time.parse(access[2]).to_s(:db)%></td>
+				<td><%=Time.parse(access[3]).to_s(:db)%></td>
+			</tr>
+<% end %>
+		</tbody>
+	</table>
+</p>
