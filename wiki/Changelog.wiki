@@ -2,7 +2,7 @@
 #labels Featured,Phase-Support,Changelog
 
 == 0.9.0 (2011-06-16) ==
-Auditing access to file revisions, Content handling improvements, Documents to DMSF conversion rake task, Many bugfixes, Further UI improvements
+Auditing access to file revisions, Documents to DMSF conversion rake task, Content handling improvements, Many bugfixes, Further UI improvements
 
  * *Require database update*
  * *New plugin settings*
