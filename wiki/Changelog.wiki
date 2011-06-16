@@ -1,6 +1,26 @@
 #summary Changelogs for all releases
 #labels Featured,Phase-Support,Changelog
 
+== 0.9.0 (2011-06-16) ==
+Auditing access to file revisions, Content handling improvements, Documents to DMSF conversion rake task, Many bugfixes, Further UI improvements
+
+ * *Require database update*
+ * *New plugin settings*
+ * *DMSF user per project settings reset*
+ * *Reupload files with just initial revision to enable them to be fulltext searched*
+
+ * Issue 26:	Auditing access to file revisions
+ * Issue 52:	Proper Zipped content root
+ * Issue 54:	Choose if deleted Documents remains in storage
+ * Issue 76:	Move external resources from google CDN to assets
+ * Issue 78:	Fix plupload for Chrome
+ * Issue 79:	When showing the number of files in a folder it should be also counted the sub-folders
+ * Issue 82:	Move user settings to members relation
+ * Issue 83:	Problem with fulltext search in initial document revision
+ * Issue 84:	Fix migration rake task
+ * Issue 86:	Dry run for conversion task
+ * Issue 87:	admin account problem
+
 == 0.8.2 (2011-06-07) ==
 Bugfix release
  * Issue 74:	`dmsf_attrs[1]` is equal to E''
