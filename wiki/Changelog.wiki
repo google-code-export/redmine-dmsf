@@ -1,6 +1,11 @@
 #summary Changelogs for all releases
 #labels Featured,Phase-Support,Changelog
 
+== 0.9.1 (2011-06-17) ==
+Bugfix release, UI improvement
+ * Issue 90:	Defect: Download History always showed for latest version
+ * Issue 39:	Add jstoolbar to file list
+
 == 0.9.0 (2011-06-16) ==
 Auditing access to file revisions, Documents to DMSF conversion rake task, Content handling improvements, Many bugfixes, Further UI improvements
 
