@@ -1,6 +1,17 @@
 #summary Changelogs for all releases
 #labels Featured,Phase-Support,Changelog
 
+== 0.9.2 (2011-07-06) ==
+Bugfix release, UI improvement
+ * Issue 95:	Error on file revision accesses with PostgreSQL as backend DB
+ * Issue 99:	Upload doesn't works correctly in different browsers
+ * Issue 100:	Improve translation
+ * Issue 101:	DMSF setting tab is visible even if module is not active
+ * Issue 102:	Creating new folder in chosen sub-folder
+ * Issue 104:	showing details for a file that has been downloaded fails
+ * Issue 109:	Improve translation
+ * Issue 113:	Japanese Translation
+
 == 0.9.1 (2011-06-17) ==
 Bugfix release, UI improvement
  * Issue 90:	Defect: Download History always showed for latest version
