@@ -36,3 +36,9 @@ As stated in instalation guide
 
 == A: gbk ==
 But it will vary on variant and target system
+
+----
+
+== Q: What is proper Zip filenames encoding for Japanese characters? ==
+
+== A: shift-jis ==
