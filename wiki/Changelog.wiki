@@ -1,6 +1,23 @@
 #summary Changelogs for all releases
 #labels Featured,Phase-Support,Changelog
 
+== 1.0.0 (2011-07-27) ==
+Usability features for Wiki and Search, Several translations, Many bugfixes
+
+ * *Permission changes*
+
+ * Issue 69: Improvement of {{dmsf()}}-Link
+ * Issue 70: DMSF search scope extension
+ * Issue 88: D&D download
+ * Issue 111: Garbled filenames on dmsf file forder in server side
+ * Issue 115: Broken Project settings page (Redmine 1.2)
+ * Issue 117: revised ja.yml
+ * Issue 119: Crash when trying upload a file with empty title
+ * Issue 120: dmsf website
+ * Issue 123: Simplified Chinese (zh) translation
+ * Issue 124: Define project_module_dmsf & permission_view_dmsf_folders
+ * Issue 126: Russian translation for redmine_dmsf_0.9.2
+
 == 0.9.2 (2011-07-06) ==
 Bugfix release, UI improvement
  * Issue 95:	Error on file revision accesses with PostgreSQL as backend DB
