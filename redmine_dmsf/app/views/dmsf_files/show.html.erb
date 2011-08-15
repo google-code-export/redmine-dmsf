@@ -30,6 +30,9 @@
 						:title => l(:title_notifications_not_active_activate)) %>
 			<% end %>
 		<% end %>
+		
+		&nbsp;
+		<%= link_to("Copy", {:controller => :dmsf_files_copy, :action => "new", :id => @file }) %>
 	<% end %>
 </div>
 
@@ -172,5 +175,15 @@ sUrl = "jquery.dataTables/#{I18n.locale.to_s.downcase}.json" if I18n.locale && !
 	<%= javascript_include_tag "jquery.dataTables/jquery.dataTables.min.js", :plugin => "redmine_dmsf" %>
 	<script type="text/javascript">
 		jQuery.noConflict();
+		
+		function copyFile() {
+			var $copyDialog = jQuery('#copyDialog');
+			$copyDialog.dialog({ 
+				autoOpen: false,
+				title: "Copy file" 
+			});
+			$copyDialog.dialog('open')
+		}
+		
 	</script>
 <% end %>

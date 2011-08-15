@@ -29,7 +29,7 @@ Redmine::Plugin.register :redmine_dmsf do
   name "DMSF"
   author "Vít Jonáš"
   description "Document Management System Features"
-  version "1.0.0"
+  version "1.1.0 devel"
   url "http://code.google.com/p/redmine-dmsf/"
   author_url "mailto:vit.jonas@gmail.com"
   
@@ -58,7 +58,7 @@ Redmine::Plugin.register :redmine_dmsf do
       :dmsf_files => [:show]}
     permission :folder_manipulation, {:dmsf => [:new, :create, :delete, :edit, :save, :edit_root, :save_root]}
     permission :file_manipulation, {:dmsf_files => [:create_revision, :delete, :lock, :unlock],
-      :dmsf_upload => [:upload_files, :upload_file, :commit_files]}
+      :dmsf_upload => [:upload_files, :upload_file, :commit_files], :dmsf_files_copy => [:new, :create]}
     permission :file_approval, {:dmsf_files => [:delete_revision, :notify_activate, :notify_deactivate], 
       :dmsf => [:notify_activate, :notify_deactivate]}
     permission :force_file_unlock, {}
