@@ -1,5 +1,15 @@
 #summary Changelogs for all releases
 #labels Featured,Phase-Support,Changelog
+== 1.1.0 (2011-08-29) ==
+Files copy move (across projects), Improved translations, Many bugfixes
+
+ * *DMSF menu moved*
+
+ * Issue 129: Menu Item order
+ * Issue 130: File detail controls wrapping
+ * Issue 134: Create possibility to copy file even to different project
+ * Issue 137: Translation for the label "Dmsf folders" in search results
+ * Issue 138: New ja.yml
 
 == 1.0.0 (2011-07-27) ==
 Usability features for Wiki and Search, Several translations, Many bugfixes
