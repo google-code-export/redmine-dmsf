@@ -1,5 +1,14 @@
 #summary Changelogs for all releases
 #labels Featured,Phase-Support,Changelog
+
+== 1.1.1 (2011-09-26) ==
+Security fixes and small usability fixes
+
+ * Issue 144: Path traversal access
+ * Issue 145: Direct links for sensitive oprations
+ * Issue 147: Wrong command for indexing (missing -U /)
+ * Issue 148: Link to folders for the results
+
 == 1.1.0 (2011-08-29) ==
 Files copy move (across projects), Improved translations, Many bugfixes
 
