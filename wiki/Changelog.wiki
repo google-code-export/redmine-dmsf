@@ -1,6 +1,18 @@
 #summary Changelogs for all releases
 #labels Featured,Phase-Support,Changelog
 
+== 1.2.0 (2011-10-11) ==
+Folders recursive copy (across projects), UI fixes for new browsers, Many other bugfixes
+
+ * *Require database update*
+
+ * Issue 142: Copy Folder option
+ * Issue 143: Russian translation patch for r233
+ * Issue 153: Losing revision history across a move
+ * Issue 157: Upload area tagging file names with 'undefined' and refusing to upload.
+ * Issue 159: Send documents by email don't work
+ * Issue 161: Moving a file into the same folder
+
 == 1.1.1 (2011-09-26) ==
 Security fixes and small usability fixes
 
@@ -10,7 +22,7 @@ Security fixes and small usability fixes
  * Issue 148: Link to folders for the results
 
 == 1.1.0 (2011-08-29) ==
-Files copy move (across projects), Improved translations, Many bugfixes
+Files copy/move (across projects), Improved translations, Many bugfixes
 
  * *DMSF menu moved*
 
