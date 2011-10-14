@@ -1,6 +1,12 @@
 #summary Changelogs for all releases
 #labels Featured,Phase-Support,Changelog
 
+== 1.2.1 (2011-10-14) ==
+Bugfix release to fix search issue.
+
+ * Issue 165: ja.yml
+ * Issue 168: MySQL Error in serarching within dmsf files.
+
 == 1.2.0 (2011-10-11) ==
 Folders recursive copy (across projects), UI fixes for new browsers, Many other bugfixes
 
