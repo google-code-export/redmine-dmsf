@@ -1,6 +1,17 @@
 #summary Changelogs for all releases
 #labels Featured,Phase-Support,Changelog
 
+== 1.2.2 (2011-11-17) ==
+Bugfix release to fix issue on copy/move page. Improvement for email sending.
+
+ * *New plugin settings*
+
+ * Issue 167: Feature Patch: Maximum filesize for email downloads
+ * Issue 171: No route matches "/plugin_assets/redmine_dmsf/javascripts/plupload/plupload.gears.js"
+ * Issue 176: Cross project references don't work for folders
+ * Issue 177: 500 internal error when using copy/move button
+ * Issue 178: German localisation update
+
 == 1.2.1 (2011-10-14) ==
 Bugfix release to fix search issue.
 
